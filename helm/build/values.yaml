@@ -1,0 +1,15 @@
+app:
+  name: khactrungphamteo-poi-gateway-app
+  namespace: khactrungphamteo
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/khactrungphamteo-gateway
+  org: rhdh-deploy
+  name: khactrungphamteo-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: khactrungphamteo/poi-gateway-app
+  tag: latest
